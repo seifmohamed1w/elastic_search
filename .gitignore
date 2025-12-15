@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Big dataset (DO NOT PUSH)
+data/Reviews.csv
+
+# Docker volume data (if created)
+infra/esdata/
+
+# Logs
+*.log
